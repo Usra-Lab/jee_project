@@ -1,0 +1,96 @@
+
+
+body{
+	font-family: arial;
+	
+}
+
+.btn-close{
+	position:absolute;
+	right:0;
+	padding:1.5rem;
+}
+.modal-body{
+	padding:0;
+	color:white;
+}
+
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.loginForm button{ 
+	width:100%;
+	border-radius:0;
+}
+.loginForm input{
+	background-color:inherit;
+	color:white;
+	border:0;
+	border-bottom:1px solid #fff;
+	border-radius:0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center button{
+  width:200px;
+  height:50px;
+  margin:0 10px;
+  border:0;
+  border-radius:var(--border-radius);
+  cursor:pointer;
+  background-color:#E9E7E7;
+  color:var(--color-white);
+  font-size:var(--font-size-default);
+  transition:background 250ms ease;
+}
+
+button .student { 
+ 
+    margin: 2rem;
+
+    width: 2rem;
+    height: 1rem;
+
+    border-radius: 1.25em;
+    padding: 2em 3.25em 2em 3.25em;
+    background: rgb(13, 0, 26);
+    color: white;
+    background-blend-mode: multiply;
+    box-shadow: 0em .25em 2em 0em rgba(253, 151, 255, 1)
+}
+.student:hover {
+  background-color:	#484848;
+  color:white;
+}
+
+
+
+button .teacher { 
+ 
+    margin: 2rem;
+
+    width: 2rem;
+    height: 1rem;
+
+    border-radius: 1.25em;
+    padding: 2em 3.25em 2em 3.25em;
+    background: rgb(13, 0, 26);
+    color: white;
+    background-blend-mode: multiply;
+    box-shadow: 0em .25em 2em 0em rgba(253, 151, 255, 1)
+}
+.teacher:hover {
+  background-color:	#484848;
+  color:white;
+}
+
+

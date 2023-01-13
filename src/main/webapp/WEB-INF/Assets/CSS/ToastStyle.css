@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+
+.wrapper{
+	width:420px;
+	padding:30px 20px;
+	position:absolute;
+	top:50px;
+	right:20px;
+}
+.container-1{
+	color:black;
+}
+
+
+#toast1{
+	width:420px;
+	height:100px;
+	padding:0px;
+	background-color:#ffffff;
+	box-shadow:0 15px 20px rgba(0,0,0,0.05);
+	border-left:8px solid #47d764;
+	border-radius:7px;
+	display:grid;
+	grid-template-columns:1.2fr 6fr 0.5fr;
+	gap:3px;
+	display:none;
+	
+
+
+}
+#toast2,#toast3{
+	width:420px;
+	height:100px;
+	padding:0px;
+	background-color:#ffffff;
+	box-shadow:0 15px 20px rgba(0,0,0,0.05);
+	border-left:8px solid red;
+	border-radius:7px;
+	display:grid;
+	grid-template-columns:1.2fr 6fr 0.5fr;
+	gap:3px;
+	display:none;
+	
+
+
+}
+
+#toast2 .container-1 i{
+	font-size:50px;
+	color:red;
+}
+#toast3 .container-1 i{
+	font-size:50px;
+	color:red;
+}
+
+.container-1,.container-2{
+	align-self:center;
+}
+.container-1 i{
+font-size:40px;
+
+}
+
+
+.container-1{
+	font-size:40px;
+	color:#47d764;
+}
+.container-2 p:first-child{
+	color:#101020;
+	font-weight:600;
+	font-size:16px;
+	margin-bottom:2px;
+}
+#toast1 button{
+	background-color:transparent;
+	border:0px;
+}
+#toast2 button{
+	background-color:transparent;
+	border:0px;
+}
+#toast3 button{
+	background-color:transparent;
+	border:0px;
+}
+button i{
+	font-size:30px;
+	color:grey;
+	
+}

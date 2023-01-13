@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body{
+	background-color:	#C8C8C8;
+    font-family: arial;
+	
+}
+
+h1{
+	margin-top:300px;
+}
+.col-md-7 h1{
+	color:	#383838;
+	font-size:60px;
+}
+
+.col-md-7 p{
+	color:#606060;
+	font-size:20px;	
+   letter-spacing:2px;
+}
+
+.col-md-7 p{
+	padding-right:50px;
+	
+}
+
+
+.col-md-10 h3{
+	font-size:40px;
+	font-style:bold;
+}
+
+
+.col-md-5{
+	margin-top:150px;
+}
+
+
+
+h3,.registerForm p{	
+		color:white;
+}
+
+
+
+
+
+.form-control{
+	background:transparent;
+	border-radius:0;
+	border:0px;
+	border-bottom:1.5px solid white;
+	color:white;
+}
+
+option{
+	color:grey;
+}
+
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
