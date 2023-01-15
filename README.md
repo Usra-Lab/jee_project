@@ -1,8 +1,11 @@
-# jee_project Application web programée avec jee 
+#Application web programée avec jee 
 
 
-En utilisant : le Design Pattern 
-*DAO // *SIGLETON 
+En utilisant :
+
+
+le Design Pattern 
+*DAO // *SINGLETON 
 
 
 les technologies 
